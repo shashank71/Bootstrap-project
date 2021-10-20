@@ -1,0 +1,159 @@
+body{
+    background: #f4f4f4;
+}
+.navbar{
+	background:#F97300;
+}
+.scroll-text{
+    font-weight: 1000;
+    color : rgb(20, 107, 141);;
+}
+.carousel .carousel-item img {
+    position:static;
+    height: 90vh;
+}
+.about{
+    margin: 50px 0 50px 0;
+}
+.about h1{
+    font-weight: 500px;
+    color: #ff7802;
+    margin-bottom: 20px;
+}
+.left-col h3{
+    margin: 20px 10px;
+    color: rgb(20, 107, 141);
+}.left-col p{
+    margin: 20px 10px;
+    font-size: 3vh;
+    color: rgb(138, 64, 11);
+}
+.right-col h3{
+    margin: 20px 10px;
+    color: white;
+}
+.right-col p{
+    margin: 20px 10px;
+    color: black;
+    font-size: 3vh;
+}
+/*Principal*/
+.about-principal{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about-principal h1{
+	color:#F97300;
+	margin: 2em;
+}
+.about-principal img{
+	height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about-principal span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+.about-principal .desc{
+	padding: 2em;
+	border-left:4px solid #10828C;
+}
+.about-principal .desc h3{
+	color: #10828C;
+}
+.about-principal .desc p{
+	line-height:2;
+	color:#888;
+}
+/*Gallary*/
+.gallary{
+	margin: auto;
+    position: relative;	
+}
+.gallary h1{
+	color:#F97300;
+	margin: 2em;	
+}
+.gallary img{
+	 height: 15rem;
+	 width: 100%;
+	 margin: 1%;
+}
+.gallary .item{
+	position: relative;
+	overflow: hidden;	
+}
+.gallary .des{
+	background: #F97300;
+	color: #fff;
+    font-size: 3vh;
+	text-align: center;
+	border-top-right-radius: 93%;
+	transition:.3s ease-in-out;
+	position: absolute;
+	width: 88%;
+	bottom: 5px;
+}
+.gallary .item:hover .des{
+    color: black;
+    font-size: 4vh;
+    font-weight:bolder;
+    cursor: pointer;
+	height: 100%;
+	background:#f973007d;
+    position: absolute;
+	width: 100%;
+	padding: 5em;
+	top: 0;
+	border-top-right-radius: 0;
+}
+/*Courses*/
+.cources h1{
+    margin: 1.5em;
+    color:#F97300 ;
+}
+.card-body h4{
+color: rgb(20, 107, 141);
+}
+.card-text ul{
+    color: rgb(138, 64, 11);
+    font-weight: bolder;
+}
+/*achivements*/
+.achivements h1{
+    margin: 2em;
+    color: #F97300;
+}
+.left-col-achive h3{
+    margin: 20px 10px;
+    color: rgb(20, 107, 141);
+}
+.right-col-achive li{
+    margin: 20px 10px;
+    color: black;
+    font-size: 3vh;
+}
+/*contact*/
+.contact h1{
+    margin: 2em;
+    color: #F97300;
+}
+.contact-form{
+	margin: 6em 0;
+	position: relative;		
+}
+
+.contact-form h1{
+	padding:2em 1px;
+	color: #F97300; 
+}
+.contact-form .right{
+	max-width: 600px;
+}
+.address{
+    color: black;
+}
